@@ -7,20 +7,41 @@
     <style> 
     
     #nombre{
-        border: solid 1px;
-        padding: 8px;
-    }
-    
-    legend{
         border: solid 2px;
+        padding: 8px;
+        background-color: #229d95
+    }
+    #foto{
+        border: 10px solid rgb(111, 111, 118);
+        border: 50%;
+        border-radius: 4%;
+    
+    }
+    #BJJ{
+        border: 10px solid rgb(39, 51, 53)
+    }
+    #GYM{
+        border: 10px solid rgb(39, 51, 53);
+    }
+    #Trekking{
+        border: 10px solid rgb(39, 51, 53);
+    }
+    #foto-y-texto{
+        display: flex;
+        align-items: center;
+    }
+    legend{
+        border: solid 3px;
         border-radius: 1px;
-        background-color: rgb(87, 86, 131);
+        background-color: rgb(111,111, 118);
     }
     fieldset{
         font-size: 17px;
-        margin-bottom: 20px;
+        margin-bottom: 15px;
+        border-color: rgb(4, 4, 4);
+        border-radius: 4ch;
+    
     }
-
     fieldset header{
         font-size: 16px;
     }
@@ -33,7 +54,7 @@
 </head>
 <body>
     <div id="nombre">
-        <img src="foto tamaño carnet.jpg" width="150">
+        <img id="foto" src="foto tamaño carnet.jpg" width="150">
         <h2>Felipe Eduardo Guzmán Vega</h2>
         
         
@@ -52,19 +73,27 @@
         </fieldset>
 
         <fieldset>
+            <legend>Descripcion Profesional</legend>
             <ul>
-                <li>Descripcion // introduccion: </li>
-                <header>Mi objetivo profesional es utilizar mis habilidades organizativas y mi atención al detalle para optimizar los procesos e ir contribuyendo a la empresa y también seguir mejorando mis tanto conocimientos como en el manejo de equipos de sistemas, con el objetivo de poder implementar prácticas innovadoras que impulsan. la productividad, así mismo, buscar oportunidades de crecimiento profesional dentro de la empresa, ya sea a través de la asunción de responsabilidades adicionales o participación en proyectos de mejora continua. </header>
-
+                <li>
+                    Mi descripcion profesional es utilizar mis habilidades organizativas y mi atención al detalle para optimizar los procesos e ir contribuyendo a la empresa y también seguir mejorando mis tanto conocimientos como en el manejo de equipos de sistemas, con el objetivo de poder implementar prácticas innovadoras que impulsan. la productividad, así mismo, buscar oportunidades de crecimiento profesional dentro de la empresa, ya sea a través de la asunción de responsabilidades adicionales o participación en proyectos de mejora continua. </header>
+        
+                </li>
             </ul>
+        
         </fieldset>
 
         <fieldset>
             <legend>Estudios academicos</legend>
             <ul>
-                <li>escolar: colegio Tobalaba 2000 - 20005</li>
-                <li>secundaria</li>
-                <li>superior</li>
+                <li>Escolarida Basica: colegio Tobalaba</li>
+                <header>inicio: MAR 2000 - Termino: DIC 2008</header>
+                <br>
+                <li>Escolaridad Media: liceo Jovina naranjo</li>
+                <header>inicio: MAR 2008 - Termino: DIC 2012</header>
+                <br>
+                <li>superior: instituto INACAP </li>
+                <header>Actualmente: FRB 2023 </header>
             </ul>
         </fieldset>
 
@@ -88,17 +117,17 @@
             <ol>
                 <li>practicar BJJ BRASILEÑO</li>
                 <br>
-                <img src="bjj.jpg" width="250">
+                <img id="BJJ" src="bjj.jpg" width="250">
                 <br>
                 <br>
                 <li>ir al GYM</li>
                 <br>
-                <img src="pesas.webp" width="250">
+                <img id="GYM" src="pesas.webp" width="250">
                 <br>
                 <br>
                 <li>hacer TREKKING</li>
                 <br>
-                <img src="trekking.jpg" width="250">
+                <img id="Trekking" src="trekking.jpg" width="250">
             </ol>
 
         </fieldset>
