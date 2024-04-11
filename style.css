@@ -1,4 +1,10 @@
-.contenedor{
-    max-width: 90%;
-    margin: 0 auto;
+#nombre{
+    border: solid 1px;
+    padding: 8px;
 }
+legend{
+    border: solid 2px;
+    border-radius: 1px;
+    background-color: rgb(63, 58, 222);
+}
+
