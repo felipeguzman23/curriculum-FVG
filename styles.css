@@ -2,13 +2,13 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #000022;
+    background-color: #153448;
 }
 
 header {
     text-align: center;
     margin-bottom: 20px;
-    color: #000000;
+    color: #718A91;
 }
 
 main {
@@ -116,3 +116,34 @@ a.custom-btn.btn-primary {
     color: #ffffff !important; 
 }
 
+
+@media (min-width: 960px) {
+    
+}
+
+@media (max-width: 959px) and (min-width: 480px) {
+
+}
+
+@media (max-width: 479px) {
+
+}
+
+@media (min-width: 960px) {
+    main {
+        max-width: 960px;
+    }
+}
+
+@media (max-width: 959px) and (min-width: 480px) {
+    
+    main {
+        max-width: 480px;
+    }
+}
+
+@media (max-width: 479px) {
+    main {
+        max-width: 320px;
+    }
+}
